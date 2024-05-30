@@ -1,0 +1,69 @@
+@use 'body';
+
+
+
+.flex1{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex1 div{
+    float: left;
+}
+    
+
+.h1 {
+     font-size: 96px;
+     font-weight: 900px;
+ }
+
+ .container-sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 43px 62px 900px 62px;
+    color: white;
+ }
+
+ .container-kontaktSchulenSkills {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(54, 65, 86, 1);
+ }
+
+ .container-schulen {
+    color: antiquewhite;
+ }
+   
+.container-links{ 
+    padding-left: 100px;
+    padding-right: 50px;               
+}
+ 
+.container-rechts{ 
+    padding-right: 150px;
+
+}
+        
+.schulen {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 43px 62px 900px 62px;
+ 
+}
+
+.container4{
+padding: 15px 30px 15px 30px;
+gap: 10px;
+opacity: 0px;
+background: #364156;
+color: white;
+text-align: center;
+}
+
+.color-weiss {
+    color: white;
+}
+
