@@ -17,8 +17,7 @@ body{
     
 
 .h1 {
-     font-size: 96px;
-     font-weight: 900px;
+  font-weight: 900px;
  }
 
  .container-sidebar {
@@ -33,9 +32,13 @@ body{
     padding-right: 40px;
     background-color: rgba(54, 65, 86, 1);
  }
+ .container-email{
+    background-color: rgb(62, 72, 92);
+ }
 
  .container-schulen {
-    color: antiquewhite;
+    color: white;
+    
  }
    
 .container-links{ 
@@ -68,4 +71,6 @@ text-align: center;
 .color-weiss {
     color: white;
 }
-
+a{
+    color: white;
+}
